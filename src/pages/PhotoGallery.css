@@ -1,0 +1,22 @@
+/* PhotoGallery.css */
+.card {
+  background-color: #6eaeef;
+  border: 1px solid #ced4da;
+  margin-bottom: 10px;
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0 30px rgba(234, 22, 22, 0.3);
+}
+
+.card img {
+  max-width: auto;
+  max-height: auto;
+  object-fit: cover;
+  border-radius: 10px !important;
+}
+.card-img-top {
+  padding: 20px;
+  border-radius: 10px;
+}
